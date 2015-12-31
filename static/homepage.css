@@ -12,3 +12,16 @@ video#background-video {
   background: url(static/placeholder.jpg) no-repeat;
   background-size: cover;
 }
+
+.navbar-brand {
+    float: left;
+    height: none;
+    padding: 0px 0px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.navbar-default {
+    background-color: none;
+    border-color: none;
+}
