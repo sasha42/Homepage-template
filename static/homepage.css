@@ -14,18 +14,32 @@ video#background-video {
 }
 
 .navbar-brand {
-    float: left;
-    height: auto;
-    max-height: 3.5em;
-    max-width: 80%;
-    padding: 0px 0px;
-    padding-left: 15px;
-    font-size: 18px;
-    line-height: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 0px 0px;
+  padding-left: 15px;
 }
 
 .navbar-default {
     background-color: transparent;
     border-color: transparent;
-    top: 1em;
+    top: 1.5em;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+    font-family: Avenir;
+    font-size: 1.65em;
+    font-weight: 700;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.3);
+}
+
+.btn-default {
+    font-family: Avenir;
+    font-size: 1.65em;
+    font-weight: 700;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0) !important;
+    color: #aebad0 !important;
 }
