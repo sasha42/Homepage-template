@@ -15,13 +15,17 @@ video#background-video {
 
 .navbar-brand {
     float: left;
-    height: none;
+    height: auto;
+    max-height: 3.5em;
+    max-width: 80%;
     padding: 0px 0px;
+    padding-left: 15px;
     font-size: 18px;
     line-height: 20px;
 }
 
 .navbar-default {
-    background-color: none;
-    border-color: none;
+    background-color: transparent;
+    border-color: transparent;
+    top: 1em;
 }
