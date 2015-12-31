@@ -1,0 +1,2 @@
+# Homepage template
+Playing around with various HTML5 and CSS3 techniques to achieve an awesome homepage. This is _experimentation_, please do not use this for anything beyond an example for inspiration.
